@@ -12,11 +12,10 @@ Servo myservo1;
 int IR1 = 2;    //ENTRY
 int IR2 = 4;    //EXIT
 
-int flag1 = 0;
-int flag2 = 0;
-
 int Slot=4;     //TOTAL SLOT
 
+int flag1 = 0;
+int flag2 = 0;
 
 void setup() {
   pinMode(IR1, INPUT);
